@@ -1,6 +1,6 @@
 # This workflow will build a docker container, publish it to Google Container Registry, and deploy it to GKE when there is a push to the TEXT.TXT branch.
 #
-# To configure this workflow: CAT
+# To configure this workflow:
 #
 # 1. Ensure that your repository contains the necessary configuration for your Google Kubernetes Engine cluster, including deployment.yml, kustomization.yml, service.yml, etc.
 #
@@ -10,12 +10,12 @@
 #
 # For more support on how to run the workflow, please visit https://github.com/google-github-actions/setup-gcloud/tree/master/example-workflows/gke
 
-name: cat
+name:cat
 
 on:
   push:
     branches:
-      - main
+      - MASTER- TEXT.TXT-
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
@@ -87,8 +87,8 @@ Run: |-
    Email@gmail:Comingonezz1@gmail.com
 on-
  Push-
- Branch-
- TEXT.TXT-
+ Branches 
+ TEXT.TXT- MASTER-
 
        } 
 } 
