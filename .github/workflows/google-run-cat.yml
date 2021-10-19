@@ -15,7 +15,7 @@ name:cat
 on:
   push:
     branches:
-      - MASTER- TEXT.TXT-
+      - MASTER- TEXT.TXT
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
@@ -88,7 +88,7 @@ Run: |-
 on-
  Push-
  Branches 
- TEXT.TXT- MASTER-
+   TEXT.TXT- MASTER
 
        } 
 } 
